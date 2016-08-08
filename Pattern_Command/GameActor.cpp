@@ -20,3 +20,10 @@ void GameActor::Fire()
 {
 	std::cout << "Call GameActor::Fire" << std::endl;
 }
+
+void GameActor::Move(float _x, float _y, float _z)
+{
+	m_fX = _x;
+	m_fY = _y;
+	m_fZ = _z;
+}
