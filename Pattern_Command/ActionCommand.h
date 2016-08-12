@@ -34,4 +34,4 @@ private :
 	float m_fBeforeX;
 	float m_fBeforeY;
 	float m_fBeforeZ;
-}
+};
